@@ -5,32 +5,34 @@
     </head>
     <body>
         <div class="container">
-            <h2>HTML CALCULATOR</h2>
+            <h2>Simple Calculator</h2>
             
-            <div class="section">
-                <h3>ADDITION</h3>
-                <input type="number" id="add1"> + 
-                <input type ="number" id="add2">
-                <button id="addBtn">Calculate</button>
-                <p class="result" id="addResult"></p>
-            </div>
+            <form id="calcForm">
+                <div class="section">
+                    <h3>Addition</h3>
+                    <input type="number" id="add1"> + 
+                    <input type="number" id="add2">
+                    <button type="submit" id="addBtn">Calculate</button>
+                    <p class="result" id="addResult"></p>
+                </div>
     
-            <div class="section">
-                <h3>SUBTRACTION</h3>
-                <input type ="number" id="sub1"> - 
-                <input type ="number" id="sub2">
-                <button id ="subBtn">Calculate</button>
-                <p class="result" id="subResult"></p>
-            </div>
+                <div class="section">
+                    <h3>Subtraction</h3>
+                    <input type="number" id="sub1"> - 
+                    <input type="number" id="sub2">
+                    <button type="submit" id="subBtn">Calculate</button>
+                    <p class="result" id="subResult"></p>
+                </div>
     
-            <div class="section">
-                <h3>MULTIPLICATION</h3>
-                <input type ="number" id="mul1"> × 
-                <input type ="number" id="mul2">
-                <button id="mulBtn">Calculate</button>
-                <p class="result" id="mulResult"></p>
-            </div>
-        </div>
+                <div class="section">
+                    <h3>Multiplication</h3>
+                    <input type="number" id="mul1"> × 
+                    <input type="number" id="mul2">
+                    <button type="submit" id="mulBtn">Calculate</button>
+                    <p class="result" id="mulResult"></p>
+                </div>
+            </form>
+        </div>  
         <script src="app.js"></script>
     </body>
 </html>
